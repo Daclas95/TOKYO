@@ -10,7 +10,7 @@ public class Equipment extends PageBase {
 
     // WEB element declartion
     private static By masterMenu =By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div");
-    private static By equipmenttab = By.xpath(" //*[@id=\"root\"]/div/section/section/header/ul/li[7]/a");
+    private static By equipmenttab = By.xpath(" //*[@id=\"root\"]/div/section/section/header/ul/ul/li[6]");
     private static By equipment = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/div[1]");
     private static By addequipment = By.xpath(" //*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div[1]/div/div[2]/button");
     private static By isEquipmentPageDisplay = By.xpath("//*[@id=\"rcDialogTitle2\"]/div");

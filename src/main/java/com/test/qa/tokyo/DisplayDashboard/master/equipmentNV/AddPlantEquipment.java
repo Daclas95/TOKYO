@@ -5,7 +5,7 @@ import utils.PageBase;
 
 public class AddPlantEquipment extends PageBase {
     private static By masterMenu = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div");
-    private static By equipmentPannel = By.xpath("//*[@id=\"root\"]/div/section/section/header/ul/li[7]/a");
+    private static By equipmentPannel = By.xpath("//*[@id=\"root\"]/div/section/section/header/ul/ul/li[6]/a");
     private static By plantequipmentField = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[2]/div[1]");
     private static By btnAddPLantEquip= By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div/div[1]/div/div[2]/button");
     private static By txtserialno = By.id("serial_no");
@@ -16,7 +16,7 @@ public class AddPlantEquipment extends PageBase {
     private static By txtdescription = By.id("description");
     private static By butSave = By.xpath("/html/body/div[8]/div/div[2]/div/div[2]/div[3]/button[2]");
     private static By Isdisplayed = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div/div[1]/div/div[1]");
-    private static By selectDlt = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div/div[2]/div/table/tbody/tr[2]/td[7]/span/a[2]/a/i");
+    private static By selectDlt = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div/div[2]/div/table/tbody/tr[1]/td[8]/span/a[2]/a");
     private static By clickDltbtn = By.xpath("/html/body/div[11]/div/div/div/div[2]/div/div/div[2]/button[2]");
 
     public static void clickMasterPanel() {
